@@ -24,8 +24,8 @@
  - Установите все зависимости: pip install -r requirements.txt
  - Запустите контейнер с MongoDB: docker run -d --name mongodb -p 27017:27017 mongo
  - В корневой папке проекта создайте файл .env по шаблону .env.template и добавьте туда токен полученный от @BotFather
- - Добавьте статистические данные в базу данных python add_data.py
- - Запустьте бота командой python main.py
+ - Добавьте статистические данные в базу данных: python add_data.py
+ - Запустьте бота командой: python main.py
 
 
 ### Пример входных данных
